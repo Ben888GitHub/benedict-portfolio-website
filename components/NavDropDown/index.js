@@ -31,7 +31,7 @@ const NavDropDown = (props) => (
 			<DropDownTextContainer>
 				<DropDownItemTitle>Email</DropDownItemTitle>
 				<DropDownItemDesc>
-					If you want to talk jus send a message and I'll get back
+					If you want to talk jus send a message and I&apos;ll get back
 				</DropDownItemDesc>
 			</DropDownTextContainer>
 		</DropDownItem>
