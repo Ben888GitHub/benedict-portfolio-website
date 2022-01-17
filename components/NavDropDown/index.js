@@ -20,7 +20,7 @@ const NavDropDown = (props) => (
 			<DropDownTextContainer>
 				<DropDownItemTitle>Phone</DropDownItemTitle>
 				<DropDownItemDesc>
-					Let&apos;s get together and have a chat?'
+					Let&apos;s get together and have a chat&quest;
 				</DropDownItemDesc>
 			</DropDownTextContainer>
 		</DropDownItem>
