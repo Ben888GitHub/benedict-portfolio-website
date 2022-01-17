@@ -2,10 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
-import { GrCode } from 'react-icons/gr';
-// IoCodeSlash
-
-import { RiCodeBoxFill } from 'react-icons/ri';
 
 import {
 	Container,
@@ -35,17 +31,17 @@ const Header = () => (
 		</Div1>
 		<Div2>
 			<li>
-				<Link href="#projects">
+				<Link href="#projects" passHref>
 					<NavLink>Projects</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#tech">
+				<Link href="#tech" passHref>
 					<NavLink>Technologies</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#about">
+				<Link href="#about" passHref>
 					<NavLink>About</NavLink>
 				</Link>
 			</li>

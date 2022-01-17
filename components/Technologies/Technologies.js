@@ -20,7 +20,7 @@ const Technologies = () => (
 		<SectionDivider divider />
 		<SectionTitle>Skills</SectionTitle>
 		<SectionText>
-			As a Front-end Developer, I've worked with a range of technologies to
+			As a Front-end Developer, I&apos;ve worked with a range of technologies to
 			build Web and Mobile Applications.
 		</SectionText>
 		<List>

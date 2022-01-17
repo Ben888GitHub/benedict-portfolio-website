@@ -15,13 +15,13 @@ const Hero = (props) => (
 			<LeftSection>
 				<SectionTitle main center>
 					Hi there, <br />
-					It's Ben here
+					It&apos;s Ben here
 				</SectionTitle>
 				<SectionText>
 					Creative Web Developer specializing in Front-end Development
 				</SectionText>
 
-				<Link href="#about">
+				<Link href="#about" passHref>
 					<Button onClick={props.handleClick}>Learn More</Button>
 				</Link>
 			</LeftSection>
